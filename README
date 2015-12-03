@@ -38,10 +38,10 @@
 		PINDESC_D14,    // D4
 		PINDESC_D16,    // D5
 		PINDESC_D15,    // D6
-		PINDESC_D17,    // D7
+		PINDESC_D17,    mm// D7
 	};
 
-	void main()
+	int main()
 	{
 		// setup LCD for 4 lines LCD
 		HD44780::Setup(lcdContext, 4);	// LCD 20x4
@@ -52,6 +52,8 @@
 			HD44780::PrintString(lcdContext, "Hello world!");
 			Delay_ms(500);
 		}
+
+		return 0;
 	}
 
 	</code>
