@@ -33,12 +33,12 @@
 	// LCD pins configuration
 	static const HD44780::Config lcdContext =
 	{
-		PINDESC_D12,		// RS
-		PINDESC_D4,			// EN
-		PINDESC_D14,		// D4
-		PINDESC_D16,		// D5
-		PINDESC_D15,		// D6
-		PINDESC_D17,		// D7
+		PINDESC_D12,    // RS
+		PINDESC_D4,     // EN
+		PINDESC_D14,    // D4
+		PINDESC_D16,    // D5
+		PINDESC_D15,    // D6
+		PINDESC_D17,    // D7
 	};
 
 	void main()
