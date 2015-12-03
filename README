@@ -1,0 +1,23 @@
+
+                   ,__
+                  ( ..)
+  ______o00-------------00o_________________________________________________
+ | ___  __, ___          __,        _ _   ___                               |
+ | |  | |__ |__)\  /|  |(___        /||  /|__)                              |
+ | |  | |__ |  \ \/ |__|.___)      /-|| / | \                   nervusAVR   |
+ |________________________________/___|/_____\______________________________/
+
+ Copyright (c) 2015 Mircea Marghidanu (nervus@nervus.org)
+ DWYWWIBMC license ( Do whatever you want with it but maintain copyright )
+ -----------------------------------------------------------------------
+ 
+
+ nervusAVR is a collection of optimized utilities I use for my AVR projects
+ 
+ Supports the following chips:
+	- ATMega32U4
+ 
+ Supports following devices:
+	- HD44780 LCD display
+	- DS18B20 Programmable Resolution 1-Wire Digital Thermometer 
+
